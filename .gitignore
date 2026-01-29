@@ -17,3 +17,7 @@
 /K/data_pipeline/*.pkl
 
 /data/creditcard.csv
+/K/creditcard.csv
+/K/jupyter
+/K/.ipynb_checkpoints
+/data
