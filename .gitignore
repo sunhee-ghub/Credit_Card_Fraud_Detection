@@ -1,4 +1,8 @@
+/data
 /K/creditcard.csv
 /K/jupyter
 /K/.ipynb_checkpoints
-/data
+/K/data_pipeline/base_preprocessed.csv
+/K/data_pipeline/train_cgan.csv
+/K/data_pipeline/train_kcgan.csv
+/K/data_pipeline/train_smote.csv
