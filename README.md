@@ -99,5 +99,8 @@
 ├── visualization/
 │   └── visualization.ipynb         # t_SNE 시각화
 ├── results/
-│   └── experiment_report.csv       # 12회 실험 결과 지표 저장
+│   ├── randomforest_result.csv     # 랜덤포레스트 모델 지표
+│   ├── tabtransformer_result.csv   # BERT(tabtransformer) 모델 지표
+│   ├── autoencoder_result.csv      # autoencoder 모델 지표
+│   └── tabnet_result.csv           # tabnet 모델 지표
 └── README.md
