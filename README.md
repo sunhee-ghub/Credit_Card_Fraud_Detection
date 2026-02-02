@@ -38,7 +38,7 @@
 
 ### 3.1 실험 매트릭스
 | 분류 모델 \ 데이터셋 | SMOTE | cGAN | **K-CGAN** |
-| :--- | :---: | :---: | :---: | :---: |
+| :--- | :---: | :---: | :---: |
 | **Random Forest** | Exp 1 | Exp 5 | Exp 9 |
 | **TabNet** | Exp 2 | Exp 6 | Exp 10 |
 | **BERT (Tabular)** | Exp 3 | Exp 7 | Exp 11 |
