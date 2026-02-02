@@ -38,10 +38,15 @@
 
 ### 3.1 실험 매트릭스
 | 분류 모델 \ 데이터셋 | SMOTE | cGAN | **K-CGAN** |
+
 | :--- | :---: | :---: | :---: | :---: |
+
 | **Random Forest** | Exp 5 | Exp 9 | Exp 13 |
+
 | **TabNet** | Exp 6 | Exp 10 | Exp 14 |
+
 | **BERT (Tabular)** | Exp 7 | Exp 11 | Exp 15 |
+
 | **AutoEncoder** | Exp 8 | Exp 12 | Exp 16 |
 
 ### 3.2 평가 지표 (Metrics)
