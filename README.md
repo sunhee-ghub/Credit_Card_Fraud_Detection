@@ -99,5 +99,5 @@
 ├── visualization/
 │   └── visualization.ipynb         # t_SNE 시각화
 ├── results/
-│   └── experiment_report.csv       # 16회 실험 결과 지표 저장
+│   └── experiment_report.csv       # 12회 실험 결과 지표 저장
 └── README.md
