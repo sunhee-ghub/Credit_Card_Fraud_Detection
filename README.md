@@ -38,16 +38,11 @@
 
 ### 3.1 실험 매트릭스
 | 분류 모델 \ 데이터셋 | SMOTE | cGAN | **K-CGAN** |
-
 | :--- | :---: | :---: | :---: | :---: |
-
-| **Random Forest** | Exp 5 | Exp 9 | Exp 13 |
-
-| **TabNet** | Exp 6 | Exp 10 | Exp 14 |
-
-| **BERT (Tabular)** | Exp 7 | Exp 11 | Exp 15 |
-
-| **AutoEncoder** | Exp 8 | Exp 12 | Exp 16 |
+| **Random Forest** | Exp 1 | Exp 5 | Exp 9 |
+| **TabNet** | Exp 2 | Exp 6 | Exp 10 |
+| **BERT (Tabular)** | Exp 3 | Exp 7 | Exp 11 |
+| **AutoEncoder** | Exp 4 | Exp 8 | Exp 12 |
 
 ### 3.2 평가 지표 (Metrics)
 단순 정확도(Accuracy)는 불균형 데이터에서 무의미하므로 아래 지표를 중점적으로 평가합니다.
