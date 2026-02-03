@@ -174,5 +174,24 @@ def run(lookback_days: int = 30, window_days: int = 3):
     finally:
         conn.close()
 
+# =========================
+# 7) 오늘 날짜만 계산해서 저장 (빠르고 실시간 반영용)
+# =========================
+def run_today(window_days: int = 3):
+    conn = pymysql.connect(
+        host=MYSQL_HOST, port=MYSQL_PORT,
+        user=MYSQL_USER, password=MYSQL_PASSWORD,
+        db=MYSQL_DB, charset="utf8mb4"
+    )
+
+    try:
+        d = date.today()
+        doc_count, hits, score, thr = compute_and_save_for_date(d, window_days, conn)
+        conn.commit()
+        print(f"[OK] {d} window={window_days}d docs={doc_count} hits={hits:.1f} score={score} thr={thr:.6f}")
+    finally:
+        conn.close()
+
+
 if __name__ == "__main__":
-    run(lookback_days=30, window_days=3)
+    run_today(window_days=3)
